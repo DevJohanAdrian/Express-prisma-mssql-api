@@ -1,0 +1,29 @@
+/// Inicializar el package.json
+-npm init
+
+///Prisma setup
+-npm install prisma --save-dev
+-npx prisma init --datasource-provider sqlite (crea la carpeta prima con schema.prisma y .env con la configuracion inicial para sqllite)
+
+Extension para prima (Prisma)
+
+Generar la conexion a la BD
+
+Model your data in the Prisma schema (Dentro del archivo de SCHEMA.prisma)
+
+-npx prisma migrate dev --name init (Genera migraciones)
+
+///Prisma studio
+-npx prisma studio (para generar un gestor de BD en http://localhost:5555)
+
+
+///SQL lite
+Extension SQLite Viewer
+
+
+//////////////
+Agregar un error handling
+
+
+
+
